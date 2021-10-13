@@ -1,7 +1,17 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>This is a test</p>
-</body>
+  <body>
+
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="test"></div>
+<script type="text/javascript">
+  var options = {
+    width: 600,
+    height: 300,
+    channel: "jrepputtv",
+    parent: ["jrepput.github.io"]
+  };
+  var player = new Twitch.Player("test", options);
+</script>
+
+  </body>
 </html>
